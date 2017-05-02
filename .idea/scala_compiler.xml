@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="Maven 1" modules="metrics-example">
+      <parameters>
+        <parameter value="-make:transitive" />
+        <parameter value="-dependencyfile" />
+        <parameter value="E:\ehl\ehl-work\ehl-stdp-tools\metrics-example\target/.scala_dependencies" />
+      </parameters>
+    </profile>
+    <profile name="Maven 2" modules="nio-example">
+      <parameters>
+        <parameter value="-make:transitive" />
+        <parameter value="-dependencyfile" />
+        <parameter value="E:\ehl\ehl-work\ehl-stdp-tools\nio-example\target/.scala_dependencies" />
+      </parameters>
+    </profile>
+    <profile name="Maven 3" modules="spark-example">
+      <parameters>
+        <parameter value="-make:transitive" />
+        <parameter value="-dependencyfile" />
+        <parameter value="E:\ehl\ehl-work\ehl-stdp-tools\spark-example\target/.scala_dependencies" />
+      </parameters>
+    </profile>
+    <profile name="Maven 4" modules="spark2-example">
+      <parameters>
+        <parameter value="-dependencyfile" />
+        <parameter value="E:\ehl\ehl-work\ehl-stdp-tools\spark2-example\target/.scala_dependencies" />
+      </parameters>
+    </profile>
+    <profile name="Maven 5" modules="metrics">
+      <parameters>
+        <parameter value="-dependencyfile" />
+        <parameter value="E:\ehl\ehl-work\ehl-stdp-tools\metrics\target/.scala_dependencies" />
+      </parameters>
+    </profile>
+  </component>
+</project>

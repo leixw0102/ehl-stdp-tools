@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ambari-plugin/ambari-plugin.iml" filepath="$PROJECT_DIR$/ambari-plugin/ambari-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ehl-stdp-tools.iml" filepath="$PROJECT_DIR$/ehl-stdp-tools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hive-sql/hive-sql.iml" filepath="$PROJECT_DIR$/hive-sql/hive-sql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jetty/jetty.iml" filepath="$PROJECT_DIR$/jetty/jetty.iml" />
+      <module fileurl="file://$PROJECT_DIR$/metrics/metrics.iml" filepath="$PROJECT_DIR$/metrics/metrics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nio-example/nio-example.iml" filepath="$PROJECT_DIR$/nio-example/nio-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/phoenix/phoenix.iml" filepath="$PROJECT_DIR$/phoenix/phoenix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sderialization/sderialization.iml" filepath="$PROJECT_DIR$/sderialization/sderialization.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spark2-example/spark2-example.iml" filepath="$PROJECT_DIR$/spark2-example/spark2-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/url-callback/url-callback.iml" filepath="$PROJECT_DIR$/url-callback/url-callback.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-service/web-service.iml" filepath="$PROJECT_DIR$/web-service/web-service.iml" />
+    </modules>
+  </component>
+</project>
