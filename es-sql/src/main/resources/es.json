@@ -1,0 +1,32 @@
+{
+  "version": "1.0",
+  "defaultSchema": "elasticsearch",
+  "schemas": [
+    {
+      "type": "custom",
+      "name": "elasticsearch_test",
+      "factory": "org.apache.calcite.adapter.elasticsearch.ElasticsearchSchemaFactory",
+      "operand": {
+        "coordinates": "{'10.150.27.213': 9300}",
+        "userConfig": "{'bulk.flush.max.actions': 10, 'bulk.flush.max.size.mb': 1,'client.transport.ping_timeout':'10s','cluster.name':'ehl_elasticsearch'}",
+        "index": "ehlindex"
+      }
+    }
+  ,
+    {
+      "name": "elasticsearch",
+      "tables": [
+        {
+          "name": "pass_car",
+          "type": "view",
+          "sql": [
+            "select  cast(_MAP['timestamp'] AS bigint) AS \"timestamp\" ,\n",
+            " cast(_MAP['tp3'] as varchar(30)) as \"tp3\" ,\n",
+            " cast(_MAP['car_plate_number'] as varchar(30))  as \"car_plate_number\" \n",
+            " from \"elasticsearch_test\".\"pass_car\""
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -22,31 +22,55 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="es-sql" />
+        <module name="example" />
         <module name="hive-sql" />
+        <module name="http-agent-monitor" />
         <module name="jetty" />
+        <module name="jetty-test" />
+        <module name="jetty-web" />
+        <module name="jmx-agent" />
+        <module name="kafka-example" />
         <module name="metrics" />
         <module name="nio-example" />
         <module name="phoenix" />
+        <module name="reflect" />
         <module name="sderialization" />
+        <module name="spark-monitor" />
         <module name="spark2-example" />
         <module name="url-callback" />
         <module name="web-service" />
+        <module name="yarn-example" />
+        <module name="zk-example" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="ambari-plugin" target="1.7" />
+      <module name="base-monitor-agent" target="1.7" />
       <module name="ehl-stdp-tools" target="1.7" />
+      <module name="es-sql" target="1.7" />
+      <module name="example" target="1.7" />
       <module name="hive-sql" target="1.7" />
+      <module name="http-agent-monitor" target="1.7" />
+      <module name="http-servlet-agent" target="1.7" />
       <module name="jetty" target="1.7" />
+      <module name="jetty-test" target="1.7" />
+      <module name="jetty-web" target="1.7" />
+      <module name="jmx-agent" target="1.7" />
+      <module name="kafka-example" target="1.7" />
       <module name="metrics" target="1.7" />
       <module name="metrics-example" target="1.7" />
       <module name="nio-example" target="1.7" />
       <module name="phoenix" target="1.7" />
+      <module name="reflect" target="1.7" />
       <module name="sderialization" target="1.7" />
       <module name="spark-example" target="1.7" />
+      <module name="spark-monitor" target="1.7" />
       <module name="spark2-example" target="1.7" />
       <module name="url-callback" target="1.7" />
       <module name="web-service" target="1.7" />
+      <module name="yarn-example" target="1.7" />
+      <module name="zk-example" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

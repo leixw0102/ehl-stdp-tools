@@ -18,6 +18,15 @@
         <module>sderialization</module>
         <module>jetty</module>
         <module>metrics</module>
+        <module>jetty-web</module>
+        <module>kafka-example</module>
+        <module>yarn-example</module>
+        <module>example</module>
+        <module>spark-monitor</module>
+        <module>zk-example</module>
+        <module>base-monitor-agent</module>
+        <module>es-sql</module>
+        <module>reflect</module>
     </modules>
     <packaging>pom</packaging>
 

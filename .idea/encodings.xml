@@ -3,20 +3,30 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ambari-plugin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/base-monitor-agent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/base-monitor-agent/http-agent-monitor" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/base-monitor-agent/jetty-test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/base-monitor-agent/jmx-agent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/es-sql" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/example" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hive-sql" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jetty" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jetty-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kafka-example" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/metrics" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/metrics-example" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/metrics-example" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nio-example" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nio-example/src/main/java/jdk/net/xdevelop/nioserver/Notifier.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nio-example/src/main/java/jdk/net/xdevelop/nioserver/Server.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nio-example/src/main/java/jdk/net/xdevelop/nioserver/event/ServerListener.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nio-example/src/main/java/jdk/net/xdevelop/timeserver/TimeHandler.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/phoenix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/reflect" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sderialization" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spark-monitor" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spark2-example" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/url-callback" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/web-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yarn-example" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zk-example" charset="UTF-8" />
   </component>
 </project>

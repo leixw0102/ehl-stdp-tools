@@ -34,5 +34,17 @@
         <parameter value="E:\ehl\ehl-work\ehl-stdp-tools\metrics\target/.scala_dependencies" />
       </parameters>
     </profile>
+    <profile name="Maven 6" modules="kafka-example">
+      <parameters>
+        <parameter value="-dependencyfile" />
+        <parameter value="E:\ehl\ehl-work\ehl-stdp-tools\kafka-example\target/.scala_dependencies" />
+      </parameters>
+    </profile>
+    <profile name="Maven 7" modules="spark-monitor">
+      <parameters>
+        <parameter value="-dependencyfile" />
+        <parameter value="E:\ehl\ehl-work\ehl-stdp-tools\spark-monitor\target/.scala_dependencies" />
+      </parameters>
+    </profile>
   </component>
 </project>

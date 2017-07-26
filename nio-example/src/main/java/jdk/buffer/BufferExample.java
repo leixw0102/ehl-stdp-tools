@@ -14,7 +14,7 @@ public class BufferExample {
         buffer.putLong(10L);
 
         buffer.flip();
-
+        buffer.rewind();
         System.out.println(buffer.getInt());
 //        System.out.println(buffer.get());
         System.out.println(buffer.getLong());

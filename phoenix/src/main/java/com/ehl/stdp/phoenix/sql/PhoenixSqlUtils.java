@@ -65,11 +65,12 @@ public class PhoenixSqlUtils {
            return callback.call(con);
         }catch (Exception e){
             e.printStackTrace();
+            throw new Exception("execute callback error");
         }finally {
             close(con);
         }
-        throw new Exception("execute callback error");
-    }
+
+}
 
 }
 

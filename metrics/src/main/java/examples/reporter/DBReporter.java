@@ -11,6 +11,7 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * Created by 雷晓武 on 2017/4/28.
+ * 个人建议用file方式保存，后台写程序入库或者hdfs
  */
 public class DBReporter extends ScheduledReporter {
     protected DBReporter(MetricRegistry registry,Locale locale,
@@ -18,13 +19,12 @@ public class DBReporter extends ScheduledReporter {
                          TimeZone timeZone,
                          TimeUnit rateUnit,
                          TimeUnit durationUnit,
-                         MetricFilter filter) {
+                         MetricFilter filter,
+                         LogDao logDao) {
         super(registry, "db-log", filter, rateUnit, durationUnit);
     }
 
-    protected DBReporter(MetricRegistry registry, String name, MetricFilter filter, TimeUnit rateUnit, TimeUnit durationUnit, ScheduledExecutorService executor) {
-        super(registry, name, filter, rateUnit, durationUnit, executor);
-    }
+
     public static class Builder {
         private final MetricRegistry registry;
         private Locale locale;
@@ -97,6 +97,17 @@ public class DBReporter extends ScheduledReporter {
             return this;
         }
 
+        @Override
+        public String toString() {
+            return "Builder{" +
+                    "registry=" + registry +
+                    ", locale=" + locale +
+                    ", rateUnit=" + rateUnit +
+                    ", durationUnit=" + durationUnit +
+                    ", clock=" + clock.getTime() +
+                    ", filter=" + filter +
+                    '}';
+        }
         /**
          * Builds a {@link CsvReporter} with the given properties, writing {@code .csv} files to the
          * given directory.
@@ -116,5 +127,10 @@ public class DBReporter extends ScheduledReporter {
     @Override
     public void report(SortedMap<String, Gauge> gauges, SortedMap<String, Counter> counters, SortedMap<String, Histogram> histograms, SortedMap<String, Meter> meters, SortedMap<String, Timer> timers) {
 
+    }
+
+    public static void main(String[]args){
+        Builder builder = new Builder(new MetricRegistry());
+        System.out.println(builder.toString());
     }
 }

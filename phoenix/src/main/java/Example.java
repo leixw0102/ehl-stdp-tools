@@ -23,7 +23,6 @@ public class Example {
 //                   rs= conn.createStatement().executeQuery("select * from \"mobile\"" + " LIMIT 5 OFFSET 10");
                     rs = conn.prepareStatement("select count(*) from \"mobile\"").executeQuery();
                     while (rs.next()) {
-//                        System.out.println(rs.getString(1) + "\t" + rs.getLong(2) + "\t" + rs.getString(3) + "\t" + rs.getLong(5) + "\t" + rs.getLong(6));
                         System.out.println(rs.getLong(1));
                     }
                 }finally {
@@ -31,8 +30,6 @@ public class Example {
                         rs.close();
                     }
                 }
-
-//                pst.close();
                 System.out.println("==111"+(System.nanoTime()-start)+"\t"+new Date());
                 return null;
             }
